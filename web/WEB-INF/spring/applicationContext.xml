@@ -3,4 +3,11 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
+    <bean id="tv" class="com.demo.springMvc.temp.SamsungTV">
+        <property name="speaker" ref="apple"></property>
+        <property name="price" value="270000"></property>
+    </bean>
+
+    <bean id="sony" class="com.demo.springMvc.temp.SonySpeaker"></bean>
+    <bean id="apple" class="com.demo.springMvc.temp.AppleSpeaker"></bean>
 </beans>
