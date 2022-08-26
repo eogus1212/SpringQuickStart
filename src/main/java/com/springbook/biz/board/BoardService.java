@@ -23,4 +23,5 @@ public interface BoardService {
 	// git push test
 	// test 할거야
 	//test 2 할거야
+	// 머지 후
 }
